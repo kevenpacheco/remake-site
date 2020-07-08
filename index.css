@@ -145,3 +145,91 @@ main #bio #fundo span {
 
     background-color: black;
 }
+
+main #bio #resumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+    width: 50%;
+}
+
+main #bio #resumo #container {
+    height: 390px;
+    max-width: 525px;
+
+    margin: 0 10px;
+}
+
+main #bio #resumo h3 {
+    text-align: center;    
+    margin: 0 10px 30px 10px;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+main #bio #resumo p {
+    font-size: 2.2rem;
+    padding-bottom: 25px;
+}
+
+main #formulario {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe0e3;
+}
+
+main #formulario #container-form {
+    width: 815px;
+
+    /* background-color: red; */
+}
+
+main #formulario #container-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+main #formulario #container-form form h2 {
+    font-size: 10rem;
+
+    color: white;
+    background-color: #c07275;
+}
+
+main #formulario #container-form form p {
+    font-size: 4rem;
+
+    margin: 15px 0;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+main #formulario #container-form form .field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 80%;
+
+    margin-bottom: 12px;
+}
+
+main #formulario #container-form form input {
+    height: 40px;
+    width: 315px;
+}
+
+main #formulario #container-form form #message {
+    width: 79.4%;
+    height: 100px;
+}
