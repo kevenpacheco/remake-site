@@ -19,7 +19,7 @@ header {
 
 header #apresentacao {
     width: 100%;
-    height: 950px;
+    height: 100vh;
     
     display: flex;
     flex-direction: column;
@@ -32,17 +32,21 @@ header #apresentacao {
 }
 
 header #apresentacao p {
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: 0.6em;
+
+    color:white;
 }
 
 header #apresentacao h1 {
-    font-size: 9.7rem;
+    font-size: 11rem;
     padding: 68px 0;
+
+    color:white;
 }
 
 header #cabecalho {
-    height: 67px;
+    height: 65px;
 
     padding: 0 15px;
 
@@ -248,8 +252,6 @@ header #cabecalho #links-externos a {
 }
 
 .blog {
-    height: 4650px;
-
     background-color: #a9a9a9;
 }
 
@@ -263,12 +265,16 @@ header #cabecalho #links-externos a {
     align-items: center;
 }
 
-.blog .title group {
-    
+.blog .title .group {
+    width: 950px;
+
+    margin-top: 15px;
 }
 
 .blog .title h2 {
     font-size: 10rem;
+
+    margin-bottom: 15px;
 
     color: white;
     background-color: #c07275;
@@ -276,8 +282,25 @@ header #cabecalho #links-externos a {
 
 .blog .title p {
     font-size: 3rem;
+    background-color: white;
+    margin: auto;
+    display: inline;
+    margin-right: 40%;
+}
 
-    text-align: left;
+.blog .links {
+    display: grid;
+    gap: 22px;
+    grid-template-columns: 1fr 1fr;
+    width: 950px;
+    margin: auto;
+    padding: 22px 0;
+}
+
+.blog .links a {
+    text-decoration: none;
+    height: 410px;
+    width: 100%;
 
     background-color: white;
 }
